@@ -5,6 +5,7 @@ import autoprefixer from "autoprefixer";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/Portfolio-/", // 👈 DEBE coincidir
   server: { port: 5173 },
   css: {
     postcss: {

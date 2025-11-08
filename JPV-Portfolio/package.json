@@ -1,12 +1,12 @@
 {
-  "homepage": "https://jpvindas.github.io/Portfolio--JPVS/",
+  "homepage": "https://jpvindas.github.io/Portfolio-/",
   "name": "jpv-portfolio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
